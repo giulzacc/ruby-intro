@@ -14,3 +14,18 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# making lists
+shopping_list_g = ["wine", "cheese"]
+shopping_list_c = ["beer", "wings", "cheese"]
+
+# combining lists into one list
+shopping_list_both = shopping_list_c + shopping_list_g
+
+# sorting combined list 
+shopping_list_both.sort!
+puts shopping_list_both
+
+# de-duping combined list
+shopping_list_both.uniq!
+puts shopping_list_both
